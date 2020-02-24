@@ -3,57 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Дизайн интерьеров</title>
+    <title>Дизайн студия «BRUME»</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="main-header">
-        <a>
-            <img src="img/logo.png" alt="BRUME" class="logo" width="60" height="35">
-        </a>
-        <nav class="navigation">
-            <ul class="navigation-list">
-                <li class="navigation-list-item">
+    <header class="header-main">
+        <nav class="main-nav">
+            <a class="logo">
+                <img src="img/logo.png" alt="Логотип студии BRUME" width="60" height="35">
+            </a>
+            <ul class="site-navigation">
+                <li class="site-navigation-item">
                     <a href="#">Главная</a>
                 </li>
-                <li class="navigation-list-item">
+                <li class="site-navigation-item">
                     <a href="#">Преимущества</a>
                 </li>
-                <li class="navigation-list-item">
+                <li class="site-navigation-item">
                     <a href="#">Наши услуги</a>
                 </li>
-                <li class="navigation-list-item">
+                <li class="site-navigation-item">
                     <a href="#">Отзывы</a>
                 </li>
             </ul>
-            <a href="tel:+78008234888">7 (800) 823 48 88</a>
+            <a href="tel:8008234888">7 (800) 823 48 88</a>
         </nav>
     </header>
     <main>
         <h1 class="visually-hidden">Студия дизайна интерьеров «BRUME»</h1>
         <section class="promo">
-            <h2 class="visually-hidden">Наша акция</h2>
-            <img src="img/promo.jpg" alt="Интерьер" width="1155" height="595">
-            <p>Дизайн итерьеров</p>
+            <h2>Дизайн итерьеров</h2>
             <p>Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом</p>
+            <img src="img/promo.jpg" alt="Интерьер" width="1155" height="595">
             <a href="#">Заказать дизайн</a>
         </section>
-        <section class="advantage">
+        <section class="features">
             <h2 class="visually-hidden">Наши преимущества</h2>
-            <ul class="advantage-list">
-                <li class="advantage-list-item">
+            <ul class="features-list">
+                <li class="features-list-item">
                     <h3>Берём весь ремонт на себя</h3>
                     <p>Заботы по дизайну и отделке помещения возьмем на себя, останется дождаться завершения работ и наслаждать результатом</p>
                 </li>
-                <li class="advantage-list-item">
+                <li class="features-list-item">
                     <h3>Мы - профессионалы своего дела</h3>
                     <p>Наши дизайнеры постоянно повышают квалификацию, посещают курсы и тренинги, а студия уже реализовала свыше 1000 дизайн-проектов</p>
                 </li>
-                <li class="advantage-list-item">
+                <li class="features-list-item">
                     <h3>Наши проекты индивидуальны</h3>
                     <p>Каждый, созданный студией интерьер - индивидуально и максимально продуманное решение для каждого вида помещения</p>
                 </li>
-                <li class="advantage-list-item">
+                <li class="features-list-item">
                     <h3>Работаем на выгодных условиях</h3>
                     <p>Ценовая политика студии очень лояльна. мы осуществляем контроль всего процесса работы и получаем результат, которые делает клиентов счастливыми</p>
                 </li>
@@ -81,13 +80,11 @@
                     <a href="#">Выезд дизайнера на дом</a>
                 </li>
             </ul>
-            <article class="services-item">
-                <img src="img/komm.jpg" alt="Комммерческий проект" width="670" height="390">
-                <h3>Дизайн коммерческих объектов</h3>
-                <p>532 проекта</p>
-                <p>Работая с коммерческими объектами, студия изучает целевую аудиторию, создаем коммерческие интерьеры такими, чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова</p>
-                <a href="#">Консультация</a>
-            </article>
+            <img src="img/komm.jpg" alt="Комммерческий проект" width="670" height="390">
+            <h3>Дизайн коммерческих объектов</h3>
+            <p>Работая с коммерческими объектами, студия изучает целевую аудиторию, создаем коммерческие интерьеры такими, чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова</p>
+            <p>532 проекта</p>
+            <a href="#">Консультация</a>
         </section>
         <section class="stages">
             <h2>Этапы работы</h2>
@@ -119,33 +116,36 @@
             </ol>
         </section>
         <section class="order">
-            <h2 class="visually-hidden">Заказ интерьера</h2>
-            <p>Мечтаете об интерьере от BRUME?</p>
+            <h2 class="visually-hidden">Мечтаете об интерьере от BRUME?</h2>
             <p>Оставьте контактные данные, менеджер свяжется с вами в течении 15 минут, для уточнения всех деталей</p>
             <form action="#" method="POST">
                 <input type="text" name="name" id="name" placeholder="Имя">
                 <input type="tel" name="tel" id="tel" placeholder="Телефон">
                 <input type="email" name="email" id="email" placeholder="E-mail">
-                <input type="submit" name="submit" id="submit" value="Отправить">
+                <button type="submit">Отправить</button>
             </form>
             <p>Нажимая на кнопку, вы соглащаетесь с условиями обработки персональных данных</p>
+            <img src="img/image-2.jpg" width="683" height="683" alt="Дизайн от студии BRUME">
         </section>
         <section class="reviews">
             <h2>Отзывы наших клиентов</h2>
-            <ul class="reviews-list">
-                <li class="reviews-list-item">
-                    <blockquote>
-                        <img src="img/alex.jpg" alt="Александра">
-                        <cite>Александра Холодная</cite>
-                        <p>Услуга: интерьер детской</p>
-                        <p>Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро и легко, команда выполнила все точно в срок, сделали все как мы и хотели. В следующий раз обратимся к BRUME!</p>
-                    </blockquote>
-                </li>
-            </ul>
+            <blockquote>
+                <img src="img/alex.jpg" alt="Александра">
+                <cite>Александра Холодная</cite>
+                <p>Услуга: интерьер детской</p>
+                <p>Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро и легко, команда выполнила все точно в срок, сделали все как мы и хотели. В следующий раз обратимся к BRUME!</p>
+            </blockquote>
+            <div class="slider-control">
+                <button class="slider-button active-button" type="button">Первый слайд</button>
+                <button class="slider-button" type="button">Второй слайд</button>
+                <button class="slider-button" type="button">Третий слайд</button>
+                <button class="slider-button" type="button">Четвертый слайд</button>
+              </div>
         </section>
     </main>
     <footer class="main-footer">
         <p>BRUME interior, 2017 &copy;</p>
+        <p>HolodnayaDesign</p>
         <a>
             <img src="img/logo.png" alt="BRUME" class="logo" width="60" height="35">
         </a>
@@ -160,7 +160,6 @@
                 <a href="#">Facebook</a>
             </li>
         </ul>
-        <p>HolodnayaDesign</p>
     </footer>
 </body>
 </html>
